@@ -11,13 +11,15 @@
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [Info](#info)
-- [ESP Rainmaker Neo:](#esp-rainmaker-neo)
+- [ESP Rainmaker Neo](#esp-rainmaker-neo)
 - [Componentes forman la plataforma](#componentes-forman-la-plataforma)
-- [Funciones:](#funciones)
+- [Funciones](#funciones)
 
 <br>
 
 # Info
+
+<p align="center"><img src="./img/stm32_bloques.webp" width="600"   alt=" " /></p>
 
 Documentación: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html
 
@@ -31,9 +33,9 @@ esp-claw: https://github.com/espressif/esp-claw
 
 <br>
 
-# ESP Rainmaker Neo:
+# ESP Rainmaker Neo
 
-<p align="center"><img src="./img/architecture.svg" width="650"   alt=" " /></p>
+<p align="center"><img src="./img/architecture.svg" width="750"   alt=" " /></p>
 
 https://github.com/espressif/esp-rainmaker-neo
 
@@ -53,7 +55,7 @@ RainMaker Neo entrega todo lo necesario para no tener que desarrollar código de
 
 * ```Panel de Administración (Admin Dashboard)```: Una interfaz web para monitorizar el estado de los dispositivos en tiempo real, gestionar permisos y controlar las actualizaciones de software.
 
-# Funciones: 
+# Funciones 
 La plataforma automatiza las tareas más complejas de un ecosistema de Internet de las Cosas (IoT):
 
 * ```Aprovisionamiento de Red Sencillo```: Permite configurar las credenciales Wi-Fi del dispositivo mediante la aplicación móvil usando Bluetooth LE (BLE) o escaneando un código QR.
